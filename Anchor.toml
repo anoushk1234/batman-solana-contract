@@ -1,0 +1,12 @@
+[programs.devnet]
+solgifanchor = "8Lc81NeVg8UUfQiM1dRsxRhfAn7exEixmXFUhR4vjnYs"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/maverick/.config/solana/id.json"
+
+[scripts]
+test = "node tests/solgifanchor.js"
